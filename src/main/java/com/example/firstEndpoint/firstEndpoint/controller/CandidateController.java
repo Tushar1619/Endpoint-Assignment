@@ -1,8 +1,7 @@
 package com.example.firstEndpoint.firstEndpoint.controller;
 
-import com.example.firstEndpoint.firstEndpoint.dao.impl.CandidateDaoImpl;
 import com.example.firstEndpoint.firstEndpoint.entity.Candidate;
-import com.example.firstEndpoint.firstEndpoint.service.CandidateServiceImpl;
+import com.example.firstEndpoint.firstEndpoint.service.impl.CandidateServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
